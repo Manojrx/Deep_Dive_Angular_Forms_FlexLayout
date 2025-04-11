@@ -1,0 +1,39 @@
+<div class="container">
+
+    <div class="header">
+        Todo List
+    </div>
+    <div class="parentForm">
+        <div class="addForm">
+            Add Form
+            <!-- <form [formGroup]="myForm" (ngSubmit)="submit()">
+                <input type="text" formControlName="taskName">
+                <input type="text" formControlName="taskDetails">
+                <button type="submit"> Click to Submit</button>
+            </form> -->
+
+            <!-- template -->
+            <!-- <form #form1="ngForm" (ngSubmit)="submitTemplate(form1)">
+                <input type="text" ngModel name="name1">
+                <input type="text" ngModel name="name2">
+                <button type="submit"> Sumit template</button>
+            </form> -->
+            
+            <!-- Map -->
+             <form #mapForm="ngForm" >
+                <input type="text" name="search" ngModel (ngModelChange)="switchMap(mapForm)">
+             </form>
+             <!-- {{currentValue | async}} -->
+
+        </div>
+
+        <div class="formList">
+            <div class="listheader">
+                Task Details
+            </div>
+            <div *ngFor="let tasks of taskDetails" class="listing">
+                {{tasks.taskName}}
+            </div>
+        </div>
+    </div>
+</div>

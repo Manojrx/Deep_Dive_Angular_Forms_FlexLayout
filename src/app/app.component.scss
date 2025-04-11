@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    border: 3px;
+    border-color: rgb(41, 204, 204);
+    height: 97vh;
+    width: 98vw;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+    // align-content: flex-start;      //works only for flex wrap is used to set content top center or bottom
+    gap: 5px;
+
+}
+.item1{
+    font-size: 1rem;
+    flex-grow: 1;           // defines how may avilable spaces it should take
+   order:1      
+}
+.item2{
+    font-size: 1rem;
+    // flex-grow: 7;
+    // flex-shrink: 0; // defines the shrink when crushed if 0 wont shrink
+    flex: 1; // combines flex grow,shrink,basis automatically
+    align-self: center;     // if parent container flex align items  is center and u want to change this specific content to start or end 
+    order:-1;
+}
+.item3{
+   order:-3      // order defines the element indexes by defulat set to 0 we can set - property to appear first. it appears depending on the order
+}
+.item{
+    height: 40px;
+    width: 40px;
+    border: solid 2px;
+    border-radius: 2px;
+    border-color: red;
+}
