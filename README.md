@@ -1,14 +1,10 @@
 This project showcases my learning and implementation of:
 
 ✅ Forms Handling
-Built using Reactive Forms / Template-driven Forms (choose one based on what you've used).
-
-Includes custom validations, dynamic form controls, and clean user interaction handling.
-
-Designed for a seamless and user-friendly form experience.
+ using Reactive Forms / Template-driven Forms .
 
 📱 Responsive Layouts
-Utilizes Flex Layout and CSS Flexbox/Grid for a responsive structure.
+Utilizes Flex Layout and CSS Flexbox for a responsive structure.
 
 Adapts fluidly across various screen sizes (mobile, tablet, and desktop).
 
