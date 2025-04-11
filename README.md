@@ -1,3 +1,26 @@
+This project showcases my learning and implementation of:
+
+✅ Forms Handling
+Built using Reactive Forms / Template-driven Forms (choose one based on what you've used).
+
+Includes custom validations, dynamic form controls, and clean user interaction handling.
+
+Designed for a seamless and user-friendly form experience.
+
+📱 Responsive Layouts
+Utilizes Flex Layout and CSS Flexbox/Grid for a responsive structure.
+
+Adapts fluidly across various screen sizes (mobile, tablet, and desktop).
+
+Components realign and resize automatically based on screen width.
+
+🎯 Media Queries
+Custom CSS media queries are used to fine-tune UI for different breakpoints.
+
+Ensures optimal visibility, usability, and design consistency on all devices.
+
+
+
 # Todo
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
